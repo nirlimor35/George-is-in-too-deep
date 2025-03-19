@@ -1,6 +1,8 @@
 <img src="../images/v_logo.png" alt="Alt text" width="100" style="float: right;"/>
 
 # Vandelay Industries - Part I
+Before diving into the story, a few technical prerequisites.
+feel free to use any network investigation tools you fancy, in the solution sheet, we use the most raw and open-source tools we could find.
 
 ## What is Vandeley Industries?
 Vandelay Industries is a company founded by George Costanza along with Jerry Seinfeld, that is in the Import and Export business.
