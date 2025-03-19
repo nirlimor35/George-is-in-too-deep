@@ -30,9 +30,6 @@ What we do know is that the business was established in September 2019 and keeps
 * Has tendency of being lazy
 * Looks busy and let others do the work for him
 * His email address is `george@vandelay.com`
-<br>
-<br>
-
 
 ### Jerry
 <img src="images/jerry.webp" width="130">
