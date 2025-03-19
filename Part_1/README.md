@@ -1,4 +1,4 @@
-<img src="../images/v_logo.png" alt="Alt text" width="100" style="float: right;"/>
+<img src="../images/v_logo.png" width="100" style="float: right;"/>
 
 # Vandelay Industries - Part I
 Before diving into the story, a few technical prerequisites.
@@ -15,7 +15,7 @@ ANYWAY! Vandelay Industries is a new and **upcoming company** with great potenti
 
 What we do know is that the business was established in September 2019 and keeps growing by the day even though it only consists of two employees
 
-<img src="../images/george.webp" alt="Alt text" width="130" style="float: right;"/>
+<img src="../images/george.webp" width="130" style="float: right;"/>
 
 ### The grand CEO - George Costanza
 * Has a short temper
@@ -25,7 +25,7 @@ What we do know is that the business was established in September 2019 and keeps
 <br>
 <br>
 
-<img src="../images/jerry.webp" alt="Alt text" width="130" style="float: right;"/>
+<img src="../images/jerry.webp" width="130" style="float: right;"/>
 
 ### Jerry
 * Mostly apathetic
@@ -41,7 +41,7 @@ Some stuff we know because we just know, take our word for it:
 ## Now Vandeley needs you
 Business was fine until one day, **Vandelay Industries got hacked!** (maybe)
 There’s been a suspicion that information has been compromised from the company’s databases with the intention of that information being sold for a lot of money.
-
+<img src="../images/george_worry.webp" width="150" style="float: right;"/>
 What we know:
 * Company’s owner is a silent partner named Art Vandelay, a former Architect and a current Marine Biologist (who George looks up to). 
 * The network traffic is recorded 24/7 - the pcap was carved to match the date and time of the 
@@ -62,19 +62,14 @@ company’s door without a stamp.
 ### In order do declare this case as closed, we need you to use your investigator skills and answer these questions:
 <img src="../images/jerry-problem.webp" alt="Alt text" width="280" style="float: right;"/>
 
-1. What IP addresses were involved and who they belong to?
-2. What known ports are being used?
-3. What are the passwords for George and Jerry’s email?
-4. What other email addresses you can find and what are their passwords?
-5. Where does Kramer live?
-6. What was the packet number that can suggest the answer?
-7. Who originally started the conversation?
-8. In which sites were the employees browsing?
-9. What is the password of the File Server?
-10. What was the wrong attempts for the password?
-11. What was the biggest TCP conversation?
-12. What is the destination port?
-13. What is the conversations size in bytes?
-14. Create a timeline of what happened based on what you find.
+What IP addresses were involved and who they belong to?
+What known ports are being used?
+What are the passwords for George and Jerry’s email?
+What other email addresses you can find and what are their passwords?
+Where does Kramer live?
+In which sites were the employees browsing?
+What is the password of the File Server?
+What was the biggest TCP conversation?
+Create a timeline of what happened based on what you find.
 
 # Good Luck (& enjoy)
