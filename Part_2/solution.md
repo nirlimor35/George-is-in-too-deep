@@ -173,6 +173,7 @@ We can also see an Unmapped drive with a folder that matches the materials the c
 
 Evidence of mapped network drive can also be shown in the registry at:
 `NTUSER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2`
+
 <img src="../images/solution-part-2/shellbeg_2.png" width="300">
 
 ## Who can we suspect for the attack?
