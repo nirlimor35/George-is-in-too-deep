@@ -8,10 +8,10 @@ take this sheet as a recommendation and nothing more.
 ### Tools used in this solution:
 * Windows 10
 * Tsurugi Linux 2020
-* [FTK Imager from AccessData](https://accessdata.com/product-download/ftk-imager-version-4-5)
-* [Plaso Log2timeline for windows](https://github.com/log2timeline/plaso/releases/download/20191203/plaso-20191203-py3.7-amd64.zip)
-* [Shellbag Explorer](https://f001.backblazeb2.com/file/EricZimmermanTools/ShellBagsExplorer.zip)
-* [Timeline Explorer](https://f001.backblazeb2.com/file/EricZimmermanTools/TimelineExplorer.zip)
+* [FTK Imager from AccessData](https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81)
+* [Plaso Log2timeline for windows](https://github.com/log2timeline/plaso)
+* [Shellbag Explorer](https://ericzimmerman.github.io/#!index.md)
+* [Timeline Explorer](https://ericzimmerman.github.io/#!index.md)
 * Offline registry viewer of choosing
 * Latest [Python](https://www.python.org/) available
 
