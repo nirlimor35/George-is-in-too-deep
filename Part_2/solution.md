@@ -174,16 +174,19 @@ We can also see an Unmapped drive with a folder that matches the materials the c
 Evidence of mapped network drive can also be shown in the registry at:
 `NTUSER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2`
 
-
+<img src="../images/solution-part-2/shellbeg_2.png" width="300">
 
 ## Who can we suspect for the attack?
 Reading further in the email correspondence reveals that George sent an email back to info@marbiodigest.net and got a reply from the same address. this time, the name on the email was Newman
+
 <img src="../images/solution-part-2/mail_2.png" width="500">
 
 Searching for the value "newman" in the Timeline Explorer:
+
 <img src="../images/solution-part-2/tl_activity_4.png">
 
 We can also see a remote connection in the Windows Event Logs at `C:\Windows\System32\winevt\Logs`
+
 <img src="../images/solution-part-2/event_viewer.png" width="500">
 
 So now we know... the attacker was... Newman!
