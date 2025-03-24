@@ -1,5 +1,5 @@
 # Solution
-(we won't tell Art Vandeley you peaked)
+(we won't tell Art Vandeley you peeked)
 
 in this solution sheet we will be using:
 * tshark (the engine behind wireshark)
