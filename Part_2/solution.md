@@ -191,3 +191,5 @@ We can also see a remote connection in the Windows Event Logs at `C:\Windows\Sys
 <img src="../images/solution-part-2/event_viewer.png" width="500">
 
 So now we know... the attacker was... Newman!
+
+<img src="../images/solution-part-2/newman.webp" width="500">
