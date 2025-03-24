@@ -22,7 +22,7 @@ First let’s make the registry investigation easier by extracting the desired h
 5. Browse to the location of the desired hives and extract them to a location of your choosing
 6. Mark the selected files to extract, right-click and press Export Files... 
 
-<img src="../images/solution-part-2/ftk_load.png"/>
+<img src="../images/solution-part-2/ftk_load.png" width="500">
 
 Hives locations: 
 * SYSTEM, SOFTWARE, SECURITY, SAM and DEFAULT - C:\Windows\System32\config
@@ -37,7 +37,7 @@ Steps of creating a timeline:
    1. Open the FTK Imager and press File > Image Mounting…
    2. Browse for the disk image and press Mount
    3. The image will be mounted with (FTK chooses the next available letter by default unless told otherwise)
-<img src="../images/solution-part-2/ftk_add_image.png"/>
+<img src="../images/solution-part-2/ftk_add_image.png" width="500">
 
 2. Launch cmd or powershell with admin rights (WinKey + X > Windows PowerShell (Admin))
 3. cd to the folder containing `log2timeline.exe` and psort.exe. for example - cd C:\Users\Username\Desktop\Project\plaso
@@ -81,7 +81,7 @@ We know that Vandelay Industries works with a local email server, but the softwa
 Knowing Thunderbird, it keeps the eml files in the Temp folder at `C:\Users\<Username>\AppData\Local\Temp`
 
 We can see the files named `nsemail-#.eml`, more particularly nsemail-4.eml:
-<img src="../images/solution-part-2/mail_1.png"/>
+<img src="../images/solution-part-2/mail_1.png" width="500">
 
 We learn that George got an email from "info@marbiodigest.net" asking him to join their mailing list on Sep 14 2020 with a link that redirects George to the IP of **212.40.57.150**.
 Someone needed to know he likes the field of Marine Biology.
@@ -155,7 +155,7 @@ To see mapped network drives, we can use the Tsurugi built-in function called ri
 ```
 rip.pl -r NTUSER -p ntusernetwork
 ```
-<img src="../images/solution-part-2/pass_crack_1.png"/>
+<img src="../images/solution-part-2/pass_crack_1.png" width="500">
 
 And so we see that there is a mapped network drive mapped to the letter Z with the remote path of \\jerry-pc\Users
 We can verify the results and take a look at the ShellBags
@@ -165,7 +165,7 @@ We can verify the results and take a look at the ShellBags
 
 We can see that there's a `Z` drive and inside is a folder called "Jerry S".
 
-<img src="../images/solution-part-2/shellbeg_1.png"/>
+<img src="../images/solution-part-2/shellbeg_1.png" width="500">
 
 We can also see an Unmapped drive with a folder that matches the materials the client said were stolen
 
@@ -173,16 +173,16 @@ We can also see an Unmapped drive with a folder that matches the materials the c
 
 Evidence of mapped network drive can also be shown in the registry at:
 `NTUSER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2`
-<img src="../images/solution-part-2/shellbeg_2.png"/>
+<img src="../images/solution-part-2/shellbeg_2.png" width="300">
 
 ## Who can we suspect for the attack?
 Reading further in the email correspondence reveals that George sent an email back to info@marbiodigest.net and got a reply from the same address. this time, the name on the email was Newman
-<img src="../images/solution-part-2/mail_2.png"/>
+<img src="../images/solution-part-2/mail_2.png" width="500">
 
 Searching for the value "newman" in the Timeline Explorer:
-<img src="../images/solution-part-2/tl_activity_4.png"/>
+<img src="../images/solution-part-2/tl_activity_4.png">
 
 We can also see a remote connection in the Windows Event Logs at `C:\Windows\System32\winevt\Logs`
-<img src="../images/solution-part-2/event_viewer.png"/>
+<img src="../images/solution-part-2/event_viewer.png" width="500">
 
 So now we know... the attacker was... Newman!
