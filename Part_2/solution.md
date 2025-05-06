@@ -51,9 +51,9 @@ Steps of creating a timeline:
 <img src="../images/solution-part-2/l2t.png"/>
 5. After the dump file is created, we want to make it into a readable clear-text format that Timeline Explorer can read and display
     
-    ```
+    
     psort.exe -o l2tcsv -w output.csv plaso.dump
-    ```
+    
    
    * `-o` to output to csv
    * `-w` to set the output file
