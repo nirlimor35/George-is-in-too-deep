@@ -49,9 +49,9 @@ Steps of creating a timeline:
    * plaso.dump is the file name for the dump, you can name it whatever you like
    * H: Is the mounted image we already did with FTK Imager (the drive letter may vary depending on your system).
 <img src="../images/solution-part-2/l2t.png"/>
-5. After the dump file is created, we want to make it into a readable clear-text format that Timeline Explorer can read and display<br>
+5. After the dump file is created, we want to make it into a readable clear-text format that Timeline Explorer can read and display
     ```
-    psort.exe -o l2tcsv -w output.csv plaso.dump
+     psort.exe -o l2tcsv -w output.csv plaso.dump
     ```
    * `-o` to output to csv
    * `-w` to set the output file
