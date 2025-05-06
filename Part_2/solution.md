@@ -53,6 +53,7 @@ Steps of creating a timeline:
     ```
     psort.exe -o l2tcsv -w output.csv plaso.dump
     ```
+   
    * `-o` to output to csv
    * `-w` to set the output file
    * `output.csv` is the output file
